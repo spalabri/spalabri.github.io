@@ -1,0 +1,214 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/oip8wmf.css");
+@import url("https://use.typekit.net/oip8wmf.css");
+@import url("https://use.typekit.net/oip8wmf.css");
+body {
+	color: #222222;
+	text-align: center;
+}
+
+h1,
+h2 {
+	font-family: garamond-premier-pro-subhead, serif;
+	word-spacing: 0.05em;
+}
+
+h3,
+h4 {
+	font-family: brandon-grotesque, sans-serif;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+p {
+	font-family: brandon-grotesque, sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+img {
+	width: 100%;
+}
+
+main,
+header,
+footer {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+header {
+	border-bottom: 0.5px solid #222222;
+	margin-bottom: 2em;
+}
+
+header img {
+	width: 70%;
+}
+
+footer {
+	border-top: 0.5px solid #222222;
+}
+
+footer img {
+	width: 40%;
+	margin-top: 2em;
+}
+
+
+/* NAVIGATION MENU */
+
+nav ul {
+	padding: 0;
+	word-spacing: 1.5em;
+	margin-bottom: 2em;
+	font-size: 1em;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	font-family: brandon-grotesque, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+nav ul li a {
+	color: #222222;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #cccccc;
+}
+
+
+/* SECTIONS */
+
+div.container {
+	max-width: 55em;
+	margin: auto;
+}
+
+.introduction,
+.menu,
+.location {
+	margin-bottom: 8em;
+}
+
+.introduction a,
+.menu a,
+.location a {
+	color: #222222;
+	text-decoration: none;
+	padding: 0.3em 1.3em 0.3em 1.3em;
+	border: 1px;
+	border-style: solid;
+	border-color: #222222;
+}
+
+.introduction a:hover,
+.menu a:hover,
+.location a:hover {
+	color: #cccccc;
+	border-color: #cccccc;
+}
+
+.menu {
+	background-color: #F0EBE7;
+	padding: 1em;
+}
+
+.menu-items h4 {
+	text-align: center;
+}
+
+.menu-items img {
+	border-radius: 50%;
+	width: 40%;
+}
+
+.button {
+	margin-top: 3em;
+}
+
+.about,
+.full-menu,
+.contact {
+	margin-top: 2em;
+	margin-bottom: 5em;
+}
+
+.about p {
+	text-align: left;
+}
+
+.full-menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.full-menu h4,
+.menu h4 {
+	font-weight: 700;
+	color: #47362C;
+}
+
+.full-menu li {
+	text-align: left;
+}
+
+.coffee,
+.tea,
+.breakfast {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.price {
+	font-style: italic;
+	color: #47362C;
+}
+
+.coffee li,
+.tea li,
+.breakfast li {
+	margin-top: 2.5em;
+}
+
+.contact h2 {
+	margin-top: 2em;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 40em) {
+	nav ul {
+		font-size: 1.4em;
+	}
+	.menu-items {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.menu-items img {
+		width: 80%;
+	}
+}
